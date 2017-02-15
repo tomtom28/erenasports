@@ -1,0 +1,23 @@
+{
+  "name": "erenasports",
+  "version": "1.0.0",
+  "description": "e sports",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomtom28/erenasports.git"
+  },
+  "author": "tomtom28",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomtom28/erenasports/issues"
+  },
+  "homepage": "https://github.com/tomtom28/erenasports#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
