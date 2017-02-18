@@ -13,6 +13,10 @@ var PORT = process.env.PORT || 3000;
 // Serve Static elements
 app.use(express.static('public'));
 
+app.get('/contact', function (req, res) {
+  res.render('contact.html')
+})
+
 // ============================================================
 
 

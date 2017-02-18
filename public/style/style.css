@@ -2,20 +2,10 @@
 
 body {
   padding-top: 70px;
+  padding-bottom: 70px;
   background-image: url('../img/dark-green-background.gif');
   font-family: Arial;
 }
-
-.footer {
-  /* Sticky Footer */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 50px;
-  background-color: #f5f5f5;
-}
-
 
 
 /* Homepage Style */

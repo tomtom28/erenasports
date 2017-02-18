@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tomtom28/erenasports#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0"
   }
 }
