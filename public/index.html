@@ -7,10 +7,12 @@
     <link rel="icon" href="/img/icon.png" type="image/png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="/style/reset.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="/style/style.css">
   </head>
-  <body id="homepage">
+  <body>
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -28,9 +30,11 @@
         </div>
 
         <!-- Links to Contact Form and Home Page -->
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Contact Us</a></li>
-        </ul>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
 
       </div>
     </nav>
@@ -40,7 +44,23 @@
     <div class="container">
 
       <!-- Coming Soon Image -->
-      <img id="coming-soon-image" src="/img/coming-soon.png">
+      <center>
+        <div class="row">
+
+          <br/><br/><br/><br/>
+
+          <svg width="800" height="200">
+            <text fill="white" fill-opacity="0.4" font-size="100" x="400" y="100" text-anchor="middle" stroke="black">Coming Soon</text>
+          </svg>
+
+          <br/>
+          
+          <svg width="200" height="200">
+            <text fill="white" fill-opacity="0.4" font-size="140" x="100" y="100" text-anchor="middle" stroke="black">[E]</text>
+          </svg>
+
+        </div>
+      </center>
 
     </div>
 
@@ -48,6 +68,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
+        <br/>
         <p class="text-muted">&copy; Erena Sports, 2017</p>
       </div>
     </footer>
