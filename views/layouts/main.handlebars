@@ -8,19 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Reset CSS -->
-    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="/style/reset.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <!-- Link in jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Link in Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
+      <div class="container">
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -30,7 +34,7 @@
         </div>
 
         <!-- Links to Contact Form and Home Page -->
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/contact">Contact Us</a></li>
           </ul>
@@ -43,29 +47,19 @@
     <!-- Page Content -->
     <div class="container">
 
-      <!-- Contact Form -->
-      <div class="row">
-      hello
-      </div>
+      {{{body}}}
 
     </div>
 
+    <br/><br/>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="navbar navbar-default navbar-fixed-bottom" >
       <div class="container">
         <br/>
         <p class="text-muted">&copy; Erena Sports, 2017</p>
       </div>
-      <br />
     </footer>
-
-    <!-- Link in jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <!-- Link in Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Link in Custom JS -->
-    <script src="javascript/contact.js"></script>
 
   </body>
 </html>
