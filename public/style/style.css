@@ -32,4 +32,6 @@ body {
 
 /* Contact Page Style */
 
-/* None needed yet :) */
+#personMessage { 
+  resize: vertical;
+}
